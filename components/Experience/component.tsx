@@ -16,30 +16,10 @@ export const Experience: FC = () => {
   const experience = useMemo(
     () => [
       {
-        title: "Software Engineer",
-        place: "OpenText - Waterloo, Canada",
-        date: "Sept 2024 - Dec 2024",
-      },
-      {
-        title: "Software Engineer",
-        place: "Intact DataLab - Toronto, Canada",
-        date: "Jan 2024 - April 2024",
-      },
-      {
-        title: "Data Scientist / Software Engineer",
-        place: "fliteX - Oshawa, Canada",
-        date: "Sept 2023 - Dec 2023",
-      },
-      {
-        title: "SWE Developer",
-        place: "Bluroot Inc. - Toronto, Canada",
-        date: "Jan 2023 - April 2023",
-      },
-      {
-        title: "Full Stack Developer",
-        place: "WSIB, Remote",
-        date: "Jun 2020 - Aug 2020",
-      },
+        title: "",
+        place: "",
+        date: "",
+      }
     ],
     []
   );
@@ -52,14 +32,17 @@ export const Experience: FC = () => {
       }));
     }
   }, [controls, inView]);
-
+/*
   return (
+    
     <Section
       className="mt-20 mb-16 md:mt-28"
       title={t("experience.title")}
       description={t("experience.description")}
     >
+      
       <Container className="mt-14">
+        
         <div className="flex justify-between max-w-screen-sm" ref={ref} id="experience">
           {mdScreen ? (
             <>
@@ -105,5 +88,7 @@ export const Experience: FC = () => {
         </div>
       </Container>
     </Section>
+    
   );
+*/
 };

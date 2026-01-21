@@ -1,23 +1,23 @@
 {
-  "headTitle": "Felix",
+  "headTitle": "Max Liao",
   "hero": {
-    "title": "Hi, I'm Felix!",
-    "p0": "Software engineer by day, volleyball and rock climbing enthusiast by night",
+    "title": "Hey, I'm Max!",
+    "p0": "Software engineer by day, badminton and rock climbing enthusiast by night",
     "p1": "Future SWE at",
-    "p2": "Previously",
-    "des0": "I'm a 4th year computer science student at the University of Waterloo and I specialize in software engineering. I've a strong desire to improve my skills and learn as much as I can.",
-    "des1": "I enjoy working in efficient team environments to create high-quality and impactful code. My strongest tech stack includes Python, Java, TypeScript and React. I value a supportive company culture and clear communication. I hope I would be able to integrate myself as part of your team easily!"
+    "p2": "",
+    "des0": "I'm a 2th year computer science student at the University of Western Ontario and I specialize in software engineering. I've a strong desire to improve my skills and learn as much as I can.",
+    "des1": "I enjoy working in efficient team environments to create high-quality and impactful code. My strongest tech stack includes Python, Java, TypeScript, React, and Next.js. I value a supportive company culture and clear communication. I hope I would be able to integrate myself as part of your team easily!"
   },
   "projects": {
     "title": "Projects",
     "description": "Here's some cool stuff I made. Solo and team projects included :D",
-    "journal4me": {
-      "subtitle": "Journaling with a click of a button",
-      "description": "Transcribes video journal entries, summarizes, and generates color coded mood calendars with saved entries"
+    "chess": {
+      "subtitle": "Chess with a friend",
+      "description": "Real-time online chess with WebSockets, live chat, and two-player gameplay."
     },
-    "badmintontt": {
-      "subtitle": "Track, Evaluate, Resolve",
-      "description": "Tracking app that helped me determine team members to join my high school badminton team while I was team captain"
+    "twitter-clone": {
+      "subtitle": "Twitter clone",
+      "description": "A real-time social feed clone built with Next.js and Supabase for authentication, database, and live updates"
     }
   },
   "skills": {
@@ -26,7 +26,7 @@
   },
   "experience": {
     "title": "Experience",
-    "description": "I had a great time at these companies. Hopefully I will be able to leave impactful code at your company too!"
+    "description": "None so far :P"
   },
   "contact": {
     "title": "Contact me!",
@@ -34,7 +34,7 @@
   },
   "currently": "Currently",
   "citation": {
-    "content": "Software engineer and volleyball fanatic :P",
-    "author": "- Felix"
+    "content": "Software engineer and badminton enthusiast :P",
+    "author": "- Max"
   }
 }

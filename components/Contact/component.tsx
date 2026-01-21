@@ -14,10 +14,10 @@ export const Contact: FC = () => {
       <Container>
         <div className="mt-4">
           <a
-            href="mailto:f4liao@uwaterloo.ca"
+            href="mailto:mliao43@uwo.ca"
             className="text-base font-medium md:text-xl text-black-900 dark:text-white-900"
           >
-            felix.liao@uwaterloo.ca
+            mliao43@uwo.ca
           </a>
         </div>
       </Container>

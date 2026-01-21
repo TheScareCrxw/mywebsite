@@ -47,30 +47,24 @@ export const Hero: FC = () => {
         <HeroLink title="Your Company" pointer-events href="" disabled />
         <br />
         {t("hero.p2") as string}{" "}
-        <HeroLink title="OpenText" href="https://www.opentext.com/" />{" "}
-        {t(",") as string}{" "}
-        <HeroLink title="Intact" href="https://www.intactfc.com/about-us/intact-lab" />{" "}
-        {t(",") as string}{" "}
-        <HeroLink title="Bluroot" href="https://bluroot.ca/" />
-        {t(" and") as string}{" "}
-        <HeroLink title="WSIB" href="https://www.wsib.ca/en" />
       </p>
       <div className="flex mt-8">
         <MediaIcon
           icon={<FaGithub className="w-6 h-6 md:w-7 md:h-7" />}
-          href="https://github.com/LiaoFe/mywebsitev3"
+          href="https://github.com/TheScareCrxw/mywebsite"
           className="mr-4"
         />
         <MediaIcon
           icon={<FaLinkedin className="w-6 h-6 md:w-7 md:h-7" />}
-          href="https://www.linkedin.com/in/felix-liao-998a7a24b/"
+          href="https://www.linkedin.com/in/max-liao-w/"
           className="mr-4"
         />
         <MediaIcon
           icon={
             <FaPaperclip className="w-6 h-6 md:w-7 md:h-7 animate-bounce hover:animate-spin" />
           }
-          href="/images/FelixResumeS24.pdf"
+          href="/images/FelixResumeS24.pdf" 
+          // FIX TO MY RESUME LATER DONT FORGET
         />
       </div>
       <div className="mt-10">
