@@ -24,10 +24,11 @@ export const Footer: FC = () => {
           style={{display: "flex", alignContent: "center",  alignItems: "center",}}
         >
           <Image
-            src="./images/sleepie turtie.webp"
-            width="50px"
-            height="50px"
-          ></Image>
+            src="/images/sleepie turtie.webp"
+            alt="Sleepie Turtie"
+            width={50}
+            height={50}
+          />
           <p style={{margin: "5px"}}>  ←  Click Me!</p>
         </a>
       </Row>
