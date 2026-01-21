@@ -32,7 +32,7 @@ export const Experience: FC = () => {
       }));
     }
   }, [controls, inView]);
-/*
+
   return (
     
     <Section
@@ -90,5 +90,5 @@ export const Experience: FC = () => {
     </Section>
     
   );
-*/
+
 };
