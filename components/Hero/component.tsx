@@ -63,7 +63,7 @@ export const Hero: FC = () => {
           icon={
             <FaPaperclip className="w-6 h-6 md:w-7 md:h-7 animate-bounce hover:animate-spin" />
           }
-          href="/images/FelixResumeS24.pdf" 
+          href="/images/MaxResume26.pdf" 
           // FIX TO MY RESUME LATER DONT FORGET
         />
       </div>
